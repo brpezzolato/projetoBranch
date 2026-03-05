@@ -9,7 +9,7 @@
         /* CSS BASE - ESTE É O BLOCO QUE ELES VÃO ALTERAR NA BRANCH */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #006434;
+            background-color: #0a0a0a;
             /* Cor para alterar no modo noturno */
             color: #333;
             /* Cor para alterar no modo noturno */
@@ -21,7 +21,7 @@
         }
 
         .dashboard-container {
-            background-color: white;
+            background-color: #161616;
             /* Cor para alterar no modo noturno */
             padding: 30px;
             border-radius: 12px;
@@ -32,7 +32,8 @@
         }
 
         h1 {
-            color: #006434;
+            color: white;
+            margin-bottom: 20px;
         }
 
         .metrics-grid {
@@ -42,40 +43,21 @@
         }
 
         .card {
-            background: #e9ecef;
+            background: #09090b;
             padding: 15px;
             border-radius: 8px;
         }
 
         .card-value {
             font-size: 24px;
+            color: white;
             font-weight: bold;
             display: block;
-        }
-
-        .card-value2 {
-            font-size: 24px;
-            font-weight: bold;
-            display: block;
-        }
-
-        .card-value2 span {
-            background-color: #33c771;
-            width: 40px;
-            padding: 1px;
-            padding-left: 15px;
-            padding-right: 15px;
-            border-radius: 10px;
         }
 
         .card-label {
             font-size: 14px;
-            color: #666;
-        }
-
-        .img-escudo img {
-            width: 50px;
-            height: 50px;
+            color: white;
         }
     </style>
 </head>
@@ -83,41 +65,24 @@
 <body>
 
     <div class="dashboard-container">
-        <h1>Dashboard Flaco Lopéz</h1>
-        <p style="margin-top: -15px;">Histórico de desempenho - Atacante titular</p>
+        <h1>Dashboard Analítico</h1>
 
-        <div class="flex" style="display: flex; justify-content: center; margin-bottom: 5px;">
-            <img src="https://images.fotmob.com/image_resources/playerimages/1216079.png"
-                style="width: 100px; height: 100px;">
-        </div>
         <div class="metrics-grid">
             <div class="card">
-                <span class="card-value">6 🥅</span>
-                <span class="card-label">Gols na temp.</span>
+                <span class="card-value">94.2%</span>
+                <span class="card-label">Acurácia</span>
             </div>
             <div class="card">
-                <span class="card-value">10 partidas</span>
-                <span class="card-label">Partidas jogadas</span>
-            </div>
-            <div class="card">
-                <span class="card-value">2 🟨</span>
-                <span class="card-label">Cartões amarelos</span>
-            </div>
-            <div class="card">
-                <span class="card-value2"><span>7.47</span></span>
-                <span class="card-label">Avaliação</span>
+                <span class="card-value">1.2s</span>
+                <span class="card-label">Latência</span>
             </div>
         </div>
 
-        <p style="margin-top: 25px; font-size: 12px; color: #999;">
-            Status do Servidor: <span style="color: green; padding-left: 2px;">● Online</span>
+        <p style="margin-top: 25px; font-size: 12px; color: white;">
+            Status do Servidor: <span style="color: green; padding-left: 3px;">● Online</span>
         </p>
-        <div class="img-escudo">
-            <img src="https://www.palmeiras.com.br/wp-content/uploads/2021/10/escudos-inst_1.png"
-                alt="">
-        </div>
     </div>
 
 </body>
 
-</html
+</html>
